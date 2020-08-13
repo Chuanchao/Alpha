@@ -16,7 +16,6 @@ class FutureBackTest:
 
     def run(self, sdate, edate):
         self.ftable = self.db.QueryFactorInfo(self.factor, sdate, edate)
-        
         pass
 
     def onMarketOpen(self):
