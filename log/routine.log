@@ -35,6 +35,7 @@
 2020-08-13 10:13:55,014 - [ERROR] [MainThread] (ctaalpha:65) FU 2018-06-26 2018-06-26 0
 2020-08-13 10:14:00,628 - [ERROR] [MainThread] (ctaalpha:65) FU 2018-06-26 2018-06-26 0
 2020-08-13 10:14:08,172 - [ERROR] [MainThread] (ctaalpha:65) FU 2018-06-26 2018-06-26 0
+<<<<<<< HEAD
 2020-08-13 12:28:14,625 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
 2020-08-13 12:28:14,710 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
 2020-08-13 12:28:14,792 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
@@ -49,3 +50,17 @@
 2020-08-13 20:00:02,275 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
 2020-08-13 20:00:02,413 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
 2020-08-13 20:00:02,438 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+=======
+2020-08-13 12:28:14,625 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-13 12:28:14,710 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-13 12:28:14,792 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-13 12:28:15,609 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-13 12:28:15,837 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 59
+2020-08-13 14:55:14,775 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-13 14:55:14,945 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-13 14:55:15,038 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-13 14:55:30,174 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-13 14:55:30,254 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-13 14:55:30,455 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+modify
+>>>>>>> d66ee86c0634e36d42d8d2450b7f2d066533c3bc
