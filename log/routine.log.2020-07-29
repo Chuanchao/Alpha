@@ -1,0 +1,16 @@
+2020-07-29 09:59:54,081 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-07-29 09:59:54,234 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 09:59:54,272 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 09:59:54,273 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-07-29 09:59:55,329 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-07-29 09:59:58,710 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-07-29 16:10:27,341 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-07-29 16:10:27,496 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 16:10:27,511 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-07-29 16:10:27,537 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 16:10:27,537 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-07-29 16:10:40,781 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-07-29 16:10:40,917 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 16:10:40,938 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-07-29 16:10:40,955 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-07-29 16:10:40,955 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.

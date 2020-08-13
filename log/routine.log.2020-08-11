@@ -1,0 +1,246 @@
+2020-08-10 10:29:02,218 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 10:29:02,370 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 10:29:02,384 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 10:29:02,410 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 10:29:02,410 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 10:29:08,648 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-10 11:16:29,578 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:16:29,722 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:16:29,761 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:16:29,761 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 11:16:30,512 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:16:30,778 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 11:16:30,839 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 11:17:42,807 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:17:42,948 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:17:42,982 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 11:17:42,988 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:17:42,988 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 11:35:12,478 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:35:12,618 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:35:12,642 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 11:35:12,660 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:35:12,661 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 11:35:13,312 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:35:13,546 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 11:35:30,543 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 11:35:30,691 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:35:30,727 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 11:35:30,728 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 11:35:30,790 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 12:42:45,917 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 12:42:46,052 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 12:42:46,092 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 12:42:46,093 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 12:42:46,257 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 12:42:46,819 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 12:42:47,092 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:32:17,213 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:32:17,412 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:32:17,429 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:32:17,595 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:32:17,596 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:32:22,546 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:32:22,834 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:37:30,176 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:37:30,321 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:37:30,356 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:37:30,356 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:37:30,393 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:37:57,867 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:37:58,017 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:37:58,038 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:37:58,054 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:37:58,054 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:37:58,707 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:37:58,916 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:38:58,668 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:38:58,813 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:38:58,835 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:38:58,851 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:38:58,852 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:38:59,538 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:38:59,752 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:41:37,527 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:41:37,671 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:41:37,706 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:41:37,707 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:41:38,341 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:41:44,993 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:41:45,083 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:47:20,255 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:47:20,402 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:47:20,437 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:47:20,437 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:47:20,467 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:47:21,097 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:47:21,381 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:49:11,495 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:49:11,644 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:49:11,665 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:49:11,681 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:49:11,682 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:49:12,310 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:49:12,541 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:50:53,367 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:50:53,506 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:50:53,543 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:50:53,544 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:50:53,550 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:50:54,831 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:50:55,072 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-10 14:51:17,148 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:51:17,309 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-10 14:51:17,321 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:51:17,359 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-10 14:51:17,359 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-10 14:51:18,088 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-10 14:51:18,347 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 10:17:57,849 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 10:17:58,013 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 10:17:58,020 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 10:17:58,051 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 10:17:58,052 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 10:18:00,072 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-11 10:48:55,397 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 10:48:55,538 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 10:48:55,573 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 10:48:55,573 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 10:48:56,215 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:20:34,724 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:20:34,874 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:20:34,911 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:20:34,912 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:20:35,723 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:20:35,965 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:20:36,126 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:21:13,357 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:21:13,527 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:21:13,538 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:21:13,579 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:21:13,580 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:21:14,316 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:21:14,521 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:33:15,059 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:33:15,212 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:33:15,244 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:33:15,250 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:33:15,250 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:33:15,932 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:33:16,165 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:33:42,479 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:33:42,625 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:33:42,633 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:33:42,663 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:33:42,664 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:33:43,346 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:33:43,559 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:34:32,210 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:34:32,354 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:34:32,386 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:34:32,392 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:34:32,393 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:34:33,037 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:34:33,265 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:34:58,932 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:34:59,079 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:34:59,086 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:34:59,116 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:34:59,116 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:34:59,796 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:35:00,042 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:43:04,828 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:43:04,985 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:43:05,006 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:43:05,024 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:43:05,024 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:43:05,747 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:43:05,980 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:45:25,225 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:45:25,374 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:45:25,380 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:45:25,417 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:45:25,417 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:45:26,108 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:45:26,419 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:51:36,709 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:51:36,863 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:51:36,901 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:51:36,902 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:51:37,659 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:51:37,892 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:51:37,961 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 14:51:38,226 - [ERROR] [MainThread] (ctaalpha:62) FU 2020-08-31 2020-12-24 115
+2020-08-11 14:51:38,336 - [ERROR] [MainThread] (ctaalpha:62) SC 2020-07-31 2020-08-31 31
+2020-08-11 14:51:38,439 - [ERROR] [MainThread] (ctaalpha:62) AU 2020-12-15 2021-02-05 52
+2020-08-11 14:51:38,541 - [ERROR] [MainThread] (ctaalpha:62) AG 2020-10-15 2020-12-15 61
+2020-08-11 14:51:38,644 - [ERROR] [MainThread] (ctaalpha:62) CU 2020-08-17 2020-09-15 29
+2020-08-11 14:51:38,756 - [ERROR] [MainThread] (ctaalpha:62) AL 2020-08-17 2020-09-15 29
+2020-08-11 14:51:38,859 - [ERROR] [MainThread] (ctaalpha:62) ZN 2020-08-17 2020-09-15 29
+2020-08-11 14:51:38,983 - [ERROR] [MainThread] (ctaalpha:62) PB 2020-08-17 2020-09-15 29
+2020-08-11 14:51:39,092 - [ERROR] [MainThread] (ctaalpha:62) NI 2020-10-15 2020-11-16 32
+2020-08-11 14:51:39,200 - [ERROR] [MainThread] (ctaalpha:62) SN 2020-09-15 2020-10-15 30
+2020-08-11 14:51:39,314 - [ERROR] [MainThread] (ctaalpha:62) RB 2020-10-15 2021-01-15 92
+2020-08-11 14:51:39,421 - [ERROR] [MainThread] (ctaalpha:62) I 2020-09-14 2021-01-15 123
+2020-08-11 14:51:39,529 - [ERROR] [MainThread] (ctaalpha:62) HC 2020-10-15 2021-01-15 92
+2020-08-11 14:51:39,659 - [ERROR] [MainThread] (ctaalpha:62) SS 2020-09-15 2020-10-15 30
+2020-08-11 14:51:39,765 - [ERROR] [MainThread] (ctaalpha:62) SF 2020-09-14 2020-10-22 38
+2020-08-11 14:51:39,870 - [ERROR] [MainThread] (ctaalpha:62) SM 2020-09-14 2020-10-22 38
+2020-08-11 14:51:39,974 - [ERROR] [MainThread] (ctaalpha:62) JM 2020-09-14 2021-01-15 123
+2020-08-11 14:51:40,081 - [ERROR] [MainThread] (ctaalpha:62) J 2020-09-14 2020-10-22 38
+2020-08-11 14:51:40,200 - [ERROR] [MainThread] (ctaalpha:62) FG 2020-09-14 2021-01-15 123
+2020-08-11 14:51:40,315 - [ERROR] [MainThread] (ctaalpha:62) SP 2020-09-15 2020-12-15 91
+2020-08-11 14:51:40,456 - [ERROR] [MainThread] (ctaalpha:62) LU 2020-12-24 2021-04-30 127
+2020-08-11 14:51:40,566 - [ERROR] [MainThread] (ctaalpha:62) BU 2020-09-15 2020-12-15 91
+2020-08-11 14:51:40,691 - [ERROR] [MainThread] (ctaalpha:62) PG 2020-11-25 2020-12-28 33
+2020-08-11 14:51:40,834 - [ERROR] [MainThread] (ctaalpha:62) RU 2020-09-15 2021-01-15 122
+2020-08-11 14:51:40,947 - [ERROR] [MainThread] (ctaalpha:62) NR 2020-09-15 2020-10-15 30
+2020-08-11 14:51:41,063 - [ERROR] [MainThread] (ctaalpha:62) L 2020-09-14 2021-01-15 123
+2020-08-11 14:51:41,192 - [ERROR] [MainThread] (ctaalpha:62) TA 2020-09-14 2021-01-15 123
+2020-08-11 14:51:41,302 - [ERROR] [MainThread] (ctaalpha:62) V 2020-09-14 2021-01-15 123
+2020-08-11 14:51:41,409 - [ERROR] [MainThread] (ctaalpha:62) EG 2020-09-25 2020-10-27 32
+2020-08-11 14:51:41,520 - [ERROR] [MainThread] (ctaalpha:62) MA 2020-09-14 2021-01-15 123
+2020-08-11 14:51:41,636 - [ERROR] [MainThread] (ctaalpha:62) PP 2020-09-14 2020-10-22 38
+2020-08-11 14:51:41,760 - [ERROR] [MainThread] (ctaalpha:62) EB 2020-09-25 2020-10-27 32
+2020-08-11 14:51:41,875 - [ERROR] [MainThread] (ctaalpha:62) UR 2020-09-14 2021-01-15 123
+2020-08-11 14:51:41,994 - [ERROR] [MainThread] (ctaalpha:62) SA 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,108 - [ERROR] [MainThread] (ctaalpha:62) C 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,224 - [ERROR] [MainThread] (ctaalpha:62) A 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,354 - [ERROR] [MainThread] (ctaalpha:62) CS 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,473 - [ERROR] [MainThread] (ctaalpha:62) B 2020-09-14 2020-10-22 38
+2020-08-11 14:51:42,580 - [ERROR] [MainThread] (ctaalpha:62) M 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,694 - [ERROR] [MainThread] (ctaalpha:62) Y 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,810 - [ERROR] [MainThread] (ctaalpha:62) RM 2020-09-14 2021-01-15 123
+2020-08-11 14:51:42,919 - [ERROR] [MainThread] (ctaalpha:62) OI 2020-09-14 2021-01-15 123
+2020-08-11 14:51:43,028 - [ERROR] [MainThread] (ctaalpha:62) P 2020-09-14 2021-01-15 123
+2020-08-11 14:51:43,138 - [ERROR] [MainThread] (ctaalpha:62) CF 2020-09-14 2021-01-15 123
+2020-08-11 14:51:43,248 - [ERROR] [MainThread] (ctaalpha:62) SR 2020-09-14 2021-01-15 123
+2020-08-11 14:51:43,355 - [ERROR] [MainThread] (ctaalpha:62) JD 2020-08-26 2020-09-25 30
+2020-08-11 14:51:43,464 - [ERROR] [MainThread] (ctaalpha:62) AP 2020-10-22 2021-01-15 85
+2020-08-11 14:51:43,569 - [ERROR] [MainThread] (ctaalpha:62) CJ 2020-09-14 2021-01-15 123
+2020-08-11 14:54:38,600 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:54:38,748 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:54:38,785 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 14:54:38,786 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 14:54:39,034 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 14:54:39,459 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 14:54:39,674 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 16:23:43,256 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 16:23:43,403 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:23:43,439 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:23:43,440 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 16:23:43,448 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 16:23:44,228 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 16:23:44,429 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 16:28:24,196 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 16:28:24,339 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:28:24,373 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:28:24,373 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
+2020-08-11 16:28:24,396 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 16:28:25,061 - [DEBUG] [MainThread] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 16:28:25,314 - [DEBUG] [MainThread] (connectionpool:442) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-11 16:28:42,164 - [DEBUG] [Thread-1] (connectionpool:941) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-11 16:28:42,306 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:28:42,327 - [DEBUG] [Thread-1] (connectionpool:442) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-11 16:28:42,344 - [DEBUG] [MainThread] (pyplot:225) Loaded backend qt5agg version unknown.
+2020-08-11 16:28:42,344 - [DEBUG] [MainThread] (pyplot:225) Loaded backend Qt5Agg version unknown.
