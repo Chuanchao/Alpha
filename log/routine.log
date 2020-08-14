@@ -67,4 +67,22 @@ modify
 
 
 2020-08-13
-test pycharm
+test pycharm2020-08-14 10:01:04,913 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 10:01:05,086 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-14 10:01:05,118 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-14 10:01:09,701 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-14 16:21:35,562 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:21:35,745 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-14 16:21:35,757 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-14 16:21:37,146 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:21:37,368 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-14 16:22:56,434 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:22:56,507 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-14 16:22:56,638 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-14 16:22:56,920 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:22:57,139 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-14 16:23:52,976 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:23:53,053 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-14 16:23:53,187 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-14 16:23:53,467 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-14 16:23:53,695 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60

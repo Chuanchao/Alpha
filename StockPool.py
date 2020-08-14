@@ -29,6 +29,6 @@ class StockPool:
 if __name__ == '__main__':
     sp = StockPool()
     #slist = []
-    slist = pd.read_csv('stockpool\stockpool20200811.txt')['code'].tolist()
+    slist = pd.read_csv('stockpool/stockpool.txt')['code'].tolist()
     tday = datetime.date.today().strftime('%Y-%m-%d')
     sp.AddStock(slist, tday)

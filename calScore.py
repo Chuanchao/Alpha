@@ -29,6 +29,6 @@ class calRank:
 if __name__ == '__main__':
     print("calScore init")
     cal = calRank()
-    tday = '20200812'
+    tday = '20200813'
     cal.ewscore(tday)
     cal.stockpoolranking('ewscore', tday)
