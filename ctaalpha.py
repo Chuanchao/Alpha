@@ -64,10 +64,11 @@ class CTAlpha:
             except:
                 calogger.error("%s %s %s %d", row['product'], ndate, fdate, delta)
 
+
 if __name__ == '__main__':
     ca = CTAlpha()
     #tday = dt.datetime.date.today().strftime('%Y%m%d')
     #ca.UpdateFactorInfo('2010-01-04')
-    #ca.UpdateDailyCandle('2020-07-21')
+    ca.UpdateDailyCandle('2020-07-22')
     #ca.UpdateFutureBasis('2020-07-21')
-    ca.UpdateHistroyData('2010-01-04', '2020-07-21')
+    #ca.UpdateHistroyData('2010-01-04', '2020-07-21')

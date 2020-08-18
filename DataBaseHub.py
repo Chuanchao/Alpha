@@ -69,17 +69,34 @@ class DataBaseHub:
         self.sqlcta = pymysql.connect('119.3.130.46', 'root', 'gene@2019', 'ctaalpha', port=3306)
         self.ctacursor = self.sqlcta.cursor()
 
+    def __fetchdata(self, sql, dbs, cls):
+        try:
+            with dbs.cursor() as cursor:
+                cursor.execute(sql)
+                res = cursor.fetchall()
+                if len(res) > 0:
+                    df = pd.DataFrame(list(res))
+                    df.columns = cls
+                    return df
+                else:
+                    return None
+        except:
+            print('Error:{}'.format(sql))
+            return None
+
+    def __savedata(self, sql, dbs):
+        try:
+            with dbs.cursor() as cursor:
+                cursor.execute(sql)
+            dbs.commit()
+        except:
+            print('Error:{}'.format(sql))
+
     def QuerySingleStockScoreDaily(self, num, code, tday):
         table = "alpha_"+str(num).zfill(3)
         sql = "select * from {} where code = '{}' and TradeDate = '{}'".format(table, code, tday)
-        try:
-            self.alcursor.execute(sql)
-            res = self.alcursor.fetchall()
-            df = pd.DataFrame(list(res))
-            df.columns = ['code', 'Name', 'TradeDate', 'factor', 'score']
-            return df
-        except:
-            print('Error:QuerySingleStockScoreDaily Unable to fetch data')
+        cls = ['code', 'Name', 'TradeDate', 'factor', 'score']
+        return self.__fetchdata(sql, self.sqlalpha, cls)
 
     def QueryMultiStocksScoreDaily(self, nums, code, tday):
         dfs = []
@@ -90,16 +107,13 @@ class DataBaseHub:
     def QuerySinglealphaDaily(self, num, tday):
         table = "alpha_"+str(num).zfill(3)
         sql = "select * from {} where TradeDate = {}".format(table, tday)
+        cls = ['Code', 'Name', 'TradeDate', 'factor', 'score']
+        df = self.__fetchdata(sql, self.sqlalpha, cls)
         try:
-            self.alcursor.execute(sql)
-            res = self.alcursor.fetchall()
-            df = pd.DataFrame(list(res))
-            df.columns = ['Code', 'Name', 'TradeDate', 'factor', 'score']
             df['discrete_score'] = pd.qcut(df['score'], q=5, labels=False, precision=10) - 2
-            #4，6，44，56，75，101，123
             return df
         except:
-            print('Error:QueryalphaDaily Unable to fetch data {}'.format(table))
+            return None
 
     def QueryMultialphaDaily(self, nums, tday):
         dfs = []
@@ -109,44 +123,24 @@ class DataBaseHub:
 
     def QueryStockPool(self):
         sql = "select * from stockpool"
-        try:
-            self.cccursor.execute(sql)
-            res = self.cccursor.fetchall()
-            df = pd.DataFrame(list(res))
-            df.columns = ['Code', 'Name', 'sw_l2', 'jq_l2', 'EntryDate']
-            return df
-        except:
-            print('Error:QueryStockPool Failed')
+        cls = ['Code', 'Name', 'sw_l2', 'jq_l2', 'EntryDate']
+        return self.__fetchdata(sql, self.sqlcc, cls)
 
     def QueryStockRanking(self, table, tday):
         sql = "select * from {} where TradeDate = {}".format(table, tday)
-        try:
-            self.cccursor.execute(sql)
-            res = self.cccursor.fetchall()
-            df = pd.DataFrame(list(res))
-            df.columns = ['Code', 'Name', 'TradeDate', 'score']
-            return df
-        except:
-            print('Error:QueryStockRanking Unable to fetch data {}'.format(table))
+        cls = ['Code', 'Name', 'TradeDate', 'score']
+        return self.__fetchdata(sql, self.sqlcc, cls)
 
     def SaveScore(self, df, table):
         #df.to_sql(con=self.sqlcc, name='ewscore', if_exists='replace', index=False)
         for index, row in df.iterrows():
             sql = "insert into {} VALUE ('{}', '{}', '{}',{:4f});".format(table, row['Code'], row['Name'], row['TradeDate'], row['score'])
-            try:
-                self.cccursor.execute(sql)
-                self.sqlcc.commit()
-            except:
-                print('Error:{} Score Failed'.format(table))
+            self.__savedata(sql, self.sqlcc)
 
     def SaveStockPool(self, code, name, tday, swi, jqi):
         sql = "insert into stockpool VALUE ('{}', '{}', '{}', '{}', '{}') on duplicate key update " \
               "sw_l2 = '{}', jq_l2 = '{}', EntryDate = '{}';".format(code, name, swi, jqi, tday, swi, jqi, tday)
-        try:
-            self.cccursor.execute(sql)
-            self.sqlcc.commit()
-        except:
-            print('Error:SaveSockPool Failed {} tday = {}'.format(code, tday))
+        self.__savedata(sql, self.sqlcc)
 
 
     # Futures
@@ -155,97 +149,50 @@ class DataBaseHub:
             .format(df['Contract'].values[0], df['product'].values[0], df['open'].values[0],
                     df['high'].values[0], df['low'].values[0],  df['close'].values[0],
                     df['volume'].values[0], df['money'].values[0], df['Date'].values[0])
-        try:
-            self.ctacursor.execute(sql)
-            self.sqlcta.commit()
-            return True
-        except:
-            print('Error:SaveContractDailyCandle')
-            pprint(df)
-            return False
+        self.__savedata(sql, self.sqlcta)
 
     def QueryDailyProductPrice(self, p, tday):
         sql = "select * from dailycandle where product = '{}' and Date = '{}'".format(p, tday)
-        try:
-            self.ctacursor.execute(sql)
-            res = self.ctacursor.fetchall()
-            if len(res) >=2:
-                df = pd.DataFrame(list(res))
-                df.columns = ['contract', 'product', 'open', 'high', 'low', 'close', 'volume', 'money', 'date']
-                return df
-            else:
-                return None
-        except:
-            print('Error:QueryDailyProductPrice Unable to fetch data {}'.format(p))
-            print(sql)
+        cls = ['contract', 'product', 'open', 'high', 'low', 'close', 'volume', 'money', 'date']
+        return self.__fetchdata(sql, self.sqlcta, cls)
+
+    def QueryDailyCandles(self, sdate, edate):
+        sql = "select * from dailycandle where Date >= '{}' and Date <= '{}'".format(sdate, edate)
+        cls = ['contract', 'product', 'open', 'high', 'low', 'close', 'volume', 'money', 'date']
+        return self.__fetchdata(sql, self.sqlcta, cls)
+
 
     def SaveFactorInfo(self, p, dom, tday):
         sql = "insert into factors (product, Date, dominate) VALUE ('{}', '{}', '{}')" .format(p, tday, dom)
-        try:
-            self.ctacursor.execute(sql)
-            self.sqlcta.commit()
-            return True
-        except:
-            print('Error:SaveFactorInfo {}, {}'.format(p, tday))
-            return False
+        self.__savedata(sql, self.sqlcta)
 
     def QueryFactorInfo(self, factor, sdate, edate):
         sql = "select product,Date,dominate,{} from factors where Date >='{}' and Date <= '{}'".format(factor, sdate, edate)
-        try:
-            self.ctacursor.execute(sql)
-            res = self.ctacursor.fetchall()
-            if len(res) > 0:
-                df = pd.DataFrame(list(res))
-                df.columns = ['product', 'date', 'dominate', factor]
-                return df
-            else:
-                return None
-        except:
-            print('Error:QueryFactorInfo Failed {}'.format(sql))
+        cls = ['product', 'date', 'dominate', factor]
+        return self.__fetchdata(sql, self.sqlcta, cls)
 
     def Saverollyield(self, p, tday, ry_abs, ry_yy):
         sql = "update factors set ry_abs = {:4f}, ry_yy = {:4f} where product = '{}' and Date = '{}';".format(ry_abs, ry_yy, p, tday)
-        try:
-            self.ctacursor.execute(sql)
-            self.sqlcta.commit()
-            return True
-        except:
-            print('Error: Saverollyield Failed {}, {}'.format(p, tday))
-            return False
+        self.__savedata(sql, self.sqlcta)
 
     def SaveFutureBasisDaily(self, df):
         sql = "insert into futurebasis VALUE ('{}',{:4f},'{}',{},'{}', {},'{}')" \
             .format(df['product'].values[0], (df['close'].values[0] - df['close'].values[1]), df['contract'].values[0],
                     df['close'].values[0], df['contract'].values[1], df['close'].values[1], df['date'].values[0])
-        try:
-            self.ctacursor.execute(sql)
-            self.sqlcta.commit()
-            return True
-        except:
-            print('Error::SaveFutureBasisDaily')
-            pprint(sql)
-            return False
+        self.__savedata(sql, self.sqlcta)
 
     def QueryFutureBasisDaily(self, tday):
         sql = "select * from futurebasis where Date = '{}'".format(tday)
-        try:
-            self.ctacursor.execute(sql)
-            res = self.ctacursor.fetchall()
-            if len(res) > 0:
-                df = pd.DataFrame(list(res))
-                df.columns = ['product', 'basis', 'near', 'nprice', 'far', 'fprice', 'date']
-                return df
-            else:
-                return None
-        except:
-            print('Error:QueryFutureBasisDaily Failed {}'.format(sql))
-
+        cls = ['product', 'basis', 'near', 'nprice', 'far', 'fprice', 'date']
+        return self.__fetchdata(sql, self.sqlcta, cls)
 
 
 if __name__ == '__main__':
     print("DatabaseHub init")
     db = DataBaseHub()
-    df = db.QueryFactorInfo('ry_yy', '2010-01-04', '2011-01-04')
+    #df = db.QueryDailyCandles('2010-01-04', '2010-01-20')
+    #df = db.QueryFactorInfo('ry_yy', '2010-01-04', '2011-01-04')
+    df = db.QuerySinglealphaDaily(1, '20200817')
     #jqdata = JQData()
     #df = jqdata.getStockDailyCandle('600641.XSHG', '2020-08-03', 250)
     pprint(df)
