@@ -52,6 +52,13 @@ class Portfolio:
     def getshortcontracts(self):
         return list(self.posshort)
 
+    def TodomContracts(self, leads, data):
+        pass
+
+    def __toleads(self, leads, direction, pos, data):
+        #cc = [c for c in pos if c not in leads]
+        pass
+        
     def OrderTargetAmount(self, amount, product, contract, price, direction):
         if direction == Direction.LONG:
             self.__addlongpos(product, contract)

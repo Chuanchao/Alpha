@@ -1,6 +1,5 @@
 import logging
 from logging.handlers import TimedRotatingFileHandler
-from sklearn import preprocessing
 
 def ConfigLogger():
     logger = logging.getLogger()

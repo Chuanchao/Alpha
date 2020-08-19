@@ -128,3 +128,62 @@
 2020-08-18 21:25:57,955 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
 2020-08-18 21:25:58,366 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
 2020-08-18 21:25:58,628 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 60
+2020-08-19 09:58:30,525 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 09:58:30,619 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 09:58:47,083 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 09:58:51,785 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:04:23,097 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:04:23,166 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:04:23,301 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:04:26,565 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:06:04,905 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:06:04,973 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:06:05,181 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:06:07,244 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:12:10,882 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:12:10,954 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:12:11,133 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:12:14,458 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:14:27,737 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:14:27,812 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:14:27,950 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:14:30,766 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:16:32,075 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:16:32,146 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:16:32,316 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:16:35,340 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:26:52,358 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:26:52,428 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:26:52,599 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:26:55,482 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:27:24,618 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:27:24,691 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:27:24,832 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:27:27,210 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:44:01,382 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:44:01,452 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:44:01,675 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 10:44:04,220 - [INFO] [MainThread] (utils:141) NumExpr defaulting to 8 threads.
+2020-08-19 10:57:10,960 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 10:57:11,031 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 10:57:11,198 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 11:54:40,556 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 11:54:40,627 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 11:54:40,764 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 11:54:41,276 - [DEBUG] [MainThread] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 11:54:41,554 - [DEBUG] [MainThread] (connectionpool:393) https://dataapi.joinquant.com:443 "POST /apis HTTP/1.1" 200 59
+2020-08-19 15:49:09,835 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 15:49:09,915 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 15:49:10,085 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 15:50:11,448 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 15:50:11,515 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 15:50:11,686 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 16:16:31,993 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 16:16:32,063 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 16:16:32,383 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 16:17:21,184 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 16:17:21,255 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 16:17:21,389 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
+2020-08-19 16:18:03,595 - [DEBUG] [Thread-1] (connectionpool:813) Starting new HTTPS connection (1): dataapi.joinquant.com:443
+2020-08-19 16:18:03,662 - [DEBUG] [MainThread] (pyplot:225) Loaded backend module://backend_interagg version unknown.
+2020-08-19 16:18:03,931 - [DEBUG] [Thread-1] (connectionpool:393) https://dataapi.joinquant.com:443 "GET /apis HTTP/1.1" 200 36
